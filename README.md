@@ -1,11 +1,11 @@
-# gridsome-plugin-download
+# gridsome-plugin-transfer-file
 
 > Download additional files before building your Gridsome site
 
 ## Install
 
-- `yarn add gridsome-plugin-download`
-- `npm install gridsome-plugin-download --save`
+- `yarn add gridsome-plugin-transfer-file`
+- `npm install gridsome-plugin-transfer-file --save`
 
 ## Usage
 
@@ -17,7 +17,7 @@ Existing files **WILL BE** replaced as it is assumed the latest file is always d
 module.exports = {
   plugins: [
     {
-      use: 'gridsome-plugin-download',
+      use: 'gridsome-plugin-transfer-file',
       options: {
         files: [
           {

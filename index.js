@@ -33,7 +33,8 @@ module.exports = function (api, options) {
 
   api.loadSource(async () => {
     if (!files || !files.length) {
-      throw new Error(`Download plugin contains no files`)
+      console.log(`Plugin transfer-file contains no files to download!`)
+      return Promise.resolve()
     }
 
     console.log('Downloading files …')

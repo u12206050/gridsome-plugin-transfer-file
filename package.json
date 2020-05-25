@@ -1,16 +1,18 @@
 {
-  "name": "gridsome-plugin-download",
+  "name": "gridsome-plugin-transfer-file",
   "version": "0.1.0",
   "description": "Download additional files before building your Gridsome site",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/u12206050/gridsome-plugin-download.git"
+    "url": "https://github.com/u12206050/gridsome-plugin-transfer-file.git"
   },
   "keywords": [
     "gridsome",
     "gridsome-plugin",
-    "file-download"
+    "download",
+    "transfer",
+    "save-file"
   ],
   "author": "Gerard Lamusse",
   "license": "MIT",
